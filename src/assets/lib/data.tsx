@@ -1,57 +1,56 @@
 import adobexdicon from "../../assets/icons/adobexdicon.svg";
 import canvaicon from "../../assets/icons/canvaicon.svg";
 import figmaicon from "../../assets/icons/figmaicon.svg";
-import htmlicon from "../../assets/icons/htmlicon.svg";
 import cssicon from "../../assets/icons/cssicon.svg";
 import javascripticon from "../../assets/icons/javascripticon.svg";
 import typescripticon from "../../assets/icons/typescripticon.svg";
 import reacticon from "../../assets/icons/reacticon.svg";
-import nextjsicon from "../../assets/icons/nextjsicon.svg";
 import nodejsicon from "../../assets/icons/nodejsicon.svg";
 import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
 import mongodbicon from "../../assets/icons/mongoicon.svg";
 import vuejsicon from "../../assets/icons/vueicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
 import sassscssicon from "../../assets/icons/sassicon.svg";
-import trelloicon from "../../assets/icons/trelloicon.svg";
-import apiicon from "../../assets/icons/apiicon.svg";
+import redux from "../../assets/icons/redux.svg";
 import axiosicon from "../../assets/icons/axiosicon.svg";
-import spotifyicon from "../../assets/icons/spotifyicon.svg";
-import netlifyicon from "../../assets/icons/netlifyicon.svg";
 import rendericon from "../../assets/icons/rendericon.svg";
 import jwticon from "../../assets/icons/jwticon.svg";
-import wordpressicon from "../../assets/icons/wordpressicon.svg";
-import shopifyicon from "../../assets/icons/shopifyicon.svg";
+import office from "../../assets/icons/office-365-icon.svg";
+import shopifyicon from "../../assets/icons/1c.svg";
 import webflowicon from "../../assets/icons/webflowicon.svg";
-import tastyMockup from "../../assets/img/tasty_mockup.webp";
-import instorMockup from "../../assets/img/instor_mockup.webp";
-import silentmoonMockup from "../../assets/img/silentmoon_mockup.webp";
+import medics from "../../assets/img/19_Home.svg";
+import Group from "../../assets/img/Group 241.png";
+import iPhone from "../../assets/img/iPhone 14 - 1.png";
 import profilepicture from "../img/me2.webp";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
-import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
+import reactnative from "../../assets/icons/react-native-1.svg";
 import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
 import { FiGithub, FiLink, FiLinkedin, FiMail } from "react-icons/fi";
 import Imprint from "../../components/Imprint";
 import Privacy from "../../components/Privacy";
-
+import chat from '../img/home screen.png'
+import marvel from '../img/Welcome Screen-2.png'
+import bank from '../img/Sign in screen.png'
+import  htmlicon from '../icons/htmlicon.svg'
+import hava from '../img/watherapp1.png'
 export const headerIntroData = {
   title: {
-    de: "Hi, ich bin Alpay",
-    en: "Hi, I'm Alpay",
+    de: "Salam, mən Nizam",
+    en: "Hi, I'm Nizam",
   },
-  subtitle: "Fullstack Developer ",
+  subtitle: "Software Developer | Mobile / Web Development",
   description: {
-    de: "Ich bin Alpay, ein Fullstack-Entwickler mit dem Ziel, meine Karriere voranzutreiben und an inspirierenden Projekten teilzunehmen. Hier präsentiere ich meine Arbeiten und meine Leidenschaft für die Webentwicklung. Lassen Sie uns gemeinsam digitale Lösungen gestalten und die Zukunft formen!",
-    en: "I'm Alpay, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    de: "Mən Nizam, karyeramı inkişaf etdirmək və ruhlandırıcı layihələrdə iştirak etmək məqsədi daşıyan software  developerəm. Burada öz işimi və  inkişaf üçün işlərimi təqdim edirəm. Gəlin rəqəmsal həlləri birlikdə formalaşdıraq və gələcəyi formalaşdıraq!",
+    en: "I'm Nizam, a software developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
   },
   buttons: [
     {
       name: "Contact",
       label: {
-        de: "Kontaktiere mich",
+        de: "Əlaqə",
         en: "Contact me",
       },
       icon: FiMail,
@@ -60,7 +59,7 @@ export const headerIntroData = {
     {
       name: "Projects",
       label: {
-        de: "Meine Projekte",
+        de: "Proyektlərim",
         en: "My Projects",
       },
       icon: FiGithub,
@@ -72,25 +71,26 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Tasty App",
+    title: "Medics App",
     description:
-      "Eine Rezepte App, die wir als Team mit React und der MealDB API gebaut haben. Ich war der Front-End Entwickler und habe Features wie Voice Search oder Print to PDF programmiert. Das Design wurde mit Figma erstellt. Die Website ist responsive und mobile-optimiert.",
+      "Fərdiləşdirilmiş və səmərəli səhiyyə idarəçiliyi üçün hamısı bir yerdə həlliniz olan Medics-ə xoş gəlmisiniz. Bu qabaqcıl proqram tibb mütəxəssislərini gündəlik tapşırıqlarını asanlaşdıran, xəstələrə qayğı göstərən və qüsursuz ünsiyyəti inkişaf etdirən alətlərlə təmin etmək üçün nəzərdə tutulmuşdur.",
     description_EN:
-      "A recipe app that we built as a team with React and the MealDB API. I was the front-end developer and programmed features like voice search or print to PDF. The design was created with Figma. The website is responsive and mobile-optimized.",
+      "Welcome to Medics, your all-in-one solution for personalized and efficient healthcare management. This cutting-edge app is designed to empower medical professionals with tools that streamline their daily tasks, enhance patient care, and foster seamless communication.",
     technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "REST Api", icon: apiicon },
-      { name: "React", icon: reacticon },
+      { name: "React Native", icon: reactnative },
+      { name: "Node js", icon: nodejsicon },
+      { name: "Ts", icon: typescripticon },
+      { name: "Redux", icon: redux },
       { name: "Figma", icon: figmaicon },
-      { name: "Canva", icon: canvaicon },
-      { name: "Netlify", icon: netlifyicon },
-      { name: "Trello", icon: trelloicon },
+      { name: "Axios", icon: axiosicon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Render", icon: rendericon },
+      { name: "JWT & Bcrypt", icon: jwticon },
     ],
-    image: tastyMockup,
-    deploymenturl: "https://delightful-cheesecake-9b19f0.netlify.app/",
-    githuburl: "https://github.com/AlpayC/Frontend_Abschlussprojekt_Tasty",
+    image: medics,
+    deploymenturl: "https://www.figma.com/file/zjrJUKOQPSV6WWTLwnBzOi/Medics---Medical-App-UI-Kit-(Community)?type=design&node-id=0-1&mode=design&t=4Kajs6o7pdFnjptE-0",
+    githuburl: "https://github.com/Ramazanzade/Health",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -101,29 +101,20 @@ export const projectsData = [
     },
   },
   {
-    title: "Silentmoon",
+    title: "Scan QR",
     description:
-      "Eine Yoga und Meditations App, die wir als Team mit React, MongoDB, Express und Node.js gebaut haben. Meine Aufgabe als Gitmaster und Backend Entwickler bestand darin, das Backend mit Anbindung anhand einer Restful API zu programmieren und die Datenbank in MongoDB zu modellieren.",
+      "QR kodun ildırım sürətində skan edilməsi üçün əsas tətbiqiniz QuickScan-ı təqdim edirik. İstər məhsuldan QR kodunu deşifrə edirsiniz, istər vebsayta daxil olursunuz, istərsə də tədbirə daxil olursunuzsa, QuickScan prosesi qüsursuz və səmərəli etmək üçün nəzərdə tutulub.",
     description_EN:
-      "A yoga and meditation app that we built as a team with React, MongoDB, Express and Node.js. My task as a gitmaster and backend developer was to program the backend with connection using a restful API and to model the database in MongoDB.",
+      "Introducing QuickScan, your go-to app for lightning-fast QR code scanning. Whether you're decoding a QR code from a product, accessing a website, or checking in at an event, QuickScan is designed to make the process seamless and efficient.",
     technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "Spotify Api", icon: spotifyicon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
+      { name: "React Native", icon: reactnative },
+      { name: "Ts", icon: typescripticon },
       { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
     ],
-    image: silentmoonMockup,
-    deploymenturl: "https://silentmoon-grpw.onrender.com/",
+    image: iPhone,
+    deploymenturl: "https://www.figma.com/file/3sSpfrSn5tzlIviYGI2jr5/Qr-Code-scanner-(Community)?type=design&node-id=1-2&mode=design&t=J1MNtrGUvECXS424-0",
     githuburl:
-      "https://github.com/AlpayC/Fullstack_Abschlussprojekt_SilentMoon",
+      "https://github.com/Ramazanzade/QrCode-Scan",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -134,28 +125,19 @@ export const projectsData = [
     },
   },
   {
-    title: "Furniture Organizer",
+    title: "Nature App",
     description:
-      "Eine Möbel-Organizer App, die wir als Duo-Team mit React, MongoDB, Express und Node.js programmiert haben. Als Gitmaster habe ich die Verknüpfung des Frontends mit dem Backend und die Datenbankmodellierung übernommen. Die App ist responsive und mobile-optimiert.",
+      "Təbiət həvəskarları və məşğul həyatlarında sakitlik anlar axtaranlar üçün son proqram olan NatureZen-in sakit dünyasına addım atın.",
     description_EN:
-      "A furniture organizer app that we programmed as a duo team with React, MongoDB, Express and Node.js. As a gitmaster, I took over the connection of the frontend to the backend and the database modeling. The app is responsive and mobile-optimized.",
+      "Step into the serene world of NatureZen, the ultimate app for nature enthusiasts and those seeking moments of calm in their busy lives. ",
     technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "JWT & Bcrypt", icon: jwticon },
-      { name: "Axios", icon: axiosicon },
-      { name: "MongoDB", icon: mongodbicon },
-      { name: "Express", icon: expressiconwhite },
-      { name: "Node.js", icon: nodejsicon },
+      { name: "React Native", icon: reactnative },
+      { name: "Ts", icon: typescripticon },
       { name: "Figma", icon: figmaicon },
-      { name: "Render", icon: rendericon },
-      { name: "Trello", icon: trelloicon },
     ],
-    image: instorMockup,
-    deploymenturl: "https://mern-haushaltsbuch.onrender.com/",
-    githuburl: "https://github.com/AlpayC/Furniture_MERN",
+    image: Group,
+    deploymenturl: "https://www.figma.com/file/wZADoNEi1Y2Glau9N5tkrl/Plant-Challenge-(Community)?type=design&node-id=1-197&mode=design&t=khzBnH0i68KgcGJk-0",
+    githuburl: "https://github.com/Ramazanzade/Nature-App",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -165,11 +147,148 @@ export const projectsData = [
       projectcolor: "#E3964A",
     },
   },
+  {
+    title: "Chat App",
+    description:
+      "Əlaqədə qalma tərzinizi yenidən müəyyən edən söhbət proqramı Chat-ı təqdim edirik. İstər dostlarla tez görüşmək, planları həmkarlarla əlaqələndirmək və ya sevdiklərinizlə anları bölüşmək olsun, Chat intuitiv dizaynı və güclü xüsusiyyətləri ilə ünsiyyəti asanlaşdırır.",
+    description_EN:
+      "Introducing Chat, the chat app that redefines the way you stay connected. Whether it's a quick catch-up with friends, coordinating plans with colleagues, or sharing moments with loved ones, Chat makes communication a breeze with its intuitive design and powerful features.",
+    technologies: [
+      { name: "React Native", icon: reactnative },
+      { name: "Ts", icon: typescripticon },
+      { name: "Js", icon: javascripticon },
+      { name: "Redux", icon: redux },
+      { name: "Figma", icon: figmaicon },
+ 
+    ],
+    image: chat,
+    deploymenturl: "https://www.figma.com/file/aldpPvGmftbhEEEjaMikO2/chatting-app-(Community)?type=design&node-id=6-432&mode=design&t=eo6sC7aXYxmVuYg1-0",
+    githuburl: "https://github.com/Ramazanzade/Chat-App",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Marvel App",
+    description:
+      "Marvel kinematoqrafiya filminin gücü Marvel Universe Streaming tətbiqimizlə, hərəkətli super qəhrəman filmləri və eksklüziv şəkillər üçün bir yerdə tapa bilərsiniz.",
+    description_EN:
+      "The power of Marvel cinematography can be found in one place for action-packed superhero movies and exclusive images with our Marvel Universe Streaming app.",
+    technologies: [
+      { name: "React Native", icon: reactnative },
+      { name: "Node js", icon: nodejsicon },
+      { name: "Ts", icon: typescripticon },
+      { name: "Redux", icon: redux },
+      { name: "Figma", icon: figmaicon },
+      { name: "Axios", icon: axiosicon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Render", icon: rendericon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+ 
+    ],
+    image: marvel,
+    deploymenturl: "https://www.figma.com/file/9UAWHQM791JQLjvxyrN401/MARVEL-APP-(Community)?type=design&node-id=0-218&mode=design&t=dUh1N5q74YVNu38t-0",
+    githuburl: "https://github.com/Ramazanzade/Marvel-App",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Bank App",
+    description:
+      "Bank maliyyə idarəçiliyini sadə, təhlükəsiz və səmərəli etmək üçün nəzərdə tutulmuş son proqramdır. İstər yolda olmağınızdan, istərsə də maliyyə gələcəyinizi planlaşdırmağınızdan asılı olmayaraq, Bank sizə hesablarınız və əməliyyatlarınız üzərində nəzarəti gücləndirmək üçün hərtərəfli funksiyalar dəsti təqdim edir.",
+    description_EN:
+      "Bank is the ultimate app designed to make managing your finances simple, secure, and efficient. Whether you're on the go or planning for your financial future, Bank provides a comprehensive suite of features to empower you with control over your accounts and transactions.",
+    technologies: [
+      { name: "React Native", icon: reactnative },
+      { name: "Node js", icon: nodejsicon },
+      { name: "Ts", icon: typescripticon },
+      { name: "Redux", icon: redux },
+      { name: "Figma", icon: figmaicon },
+      { name: "Axios", icon: axiosicon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Render", icon: rendericon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+ 
+    ],
+    image: bank,
+    deploymenturl: "https://www.figma.com/file/5kB5C9ZX0KVXLTUyWh5cpL/Income-%26-Expense-Manager-(Community)?type=design&node-id=2-18&mode=design&t=YcBU8qwVy0LTjvBS-0",
+    githuburl: "https://github.com/Ramazanzade/Fist-App",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Planet App",
+    description:
+      "Planetimizin gözəlliklərini və möcüzələrini parmaklarınızın ucuna çatdıran proqram olan Planet ilə kəşf səyahətinə çıxın. Nəfəs kəsən mənzərələrdən füsunkar vəhşi təbiətə qədər, Planet Yerin müxtəlif ekosistemlərinin valehedici tədqiqini tək, istifadəçi dostu proqramda təklif edir.",
+    description_EN:
+      "Embark on a journey of discovery with Planet , the app that brings the beauty and marvels of our planet to your fingertips. From breathtaking landscapes to fascinating wildlife, Planet  offers a captivating exploration of Earth's diverse ecosystems, all in a single, user-friendly app.",
+    technologies: [
+      { name: "React Native", icon: reactnative },
+      { name: "Ts", icon: typescripticon },
+      { name: "Redux", icon: redux },
+      { name: "Figma", icon: figmaicon },
+ 
+    ],
+    image: '',
+    deploymenturl: "",
+    githuburl: "https://github.com/Ramazanzade/Planet",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "Weather App",
+    description:
+      "Meet Weather, hava məlumatlarını sürət və dəqiqliklə çatdıran və elementlərdən qabaqda olmağınızı təmin edən proqram. Dəqiqəlik proqnozlardan interaktiv xəritələrə qədər Weather sizə harada olmağınızdan asılı olmayaraq gününüzlə bağlı məlumatlı qərarlar qəbul etmək imkanı verir.",
+    description_EN:
+      "Meet Weather, the app that delivers weather information with speed and precision, ensuring you stay ahead of the elements. From minute-by-minute forecasts to interactive maps, Weather empowers you to make informed decisions about your day, no matter where you are.",
+    technologies: [
+      { name: "React Native", icon: reactnative },
+      { name: "Ts", icon: typescripticon },
+      { name: "Axios", icon:axiosicon },
+ 
+    ],
+    image: hava,
+    deploymenturl: "",
+    githuburl: "https://github.com/Ramazanzade/Weather-App-Expo",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
 ] as const;
 
 export const liveTickerData = {
   content: {
-    de: "Weitere Projekte auf Github",
+    de: "",
     en: "More Projects on Github",
   },
 } as const;
@@ -209,9 +328,9 @@ export const skillsDataWeb = [
         color: "#61DAFB",
       },
       {
-        title: "Next.js",
+        title: "React Native",
         hash: "#Next.js",
-        icon: [nextjsicon, nextjsiconwhite],
+        icon: reactnative,
         color: ["#000000", "#FFFFFF"],
       },
       {
@@ -259,12 +378,12 @@ export const skillsDataDesign = [
     skillsTitle: "Design",
     skills: [
       { title: "Figma", hash: "#Figma", icon: figmaicon, color: "#F24E1E" },
-      {
-        title: "Adobe XD",
-        hash: "#Adobe XD",
-        icon: adobexdicon,
-        color: "#FF61F6",
-      },
+        {
+          title: "Adobe XD",
+          hash: "#Adobe XD",
+          icon: adobexdicon,
+          color: "#FF61F6",
+        },
       { title: "Canva", hash: "#Canva", icon: canvaicon, color: "#00C4CC" },
     ],
   },
@@ -272,16 +391,16 @@ export const skillsDataDesign = [
 
 export const skillsDataCMS = [
   {
-    skillsTitle: "CMS",
+    skillsTitle: "Others",
     skills: [
       {
-        title: "WordPress",
+        title: "Mc Office",
         hash: "#WordPress",
-        icon: wordpressicon,
+        icon: office,
         color: "#21759B",
       },
       {
-        title: "Shopify",
+        title: "1C",
         hash: "#Shopify",
         icon: shopifyicon,
         color: "#7AB55C",
@@ -297,36 +416,36 @@ export const skillsDataCMS = [
 ] as const;
 
 export const navLinks = [
-  { de: "Home", en: "Home", hash: "#home", icon: GoHome },
-  { de: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
-  { de: "Projekte", en: "Projects", hash: "#projects", icon: GoProject },
-  { de: "Über mich", en: "About me", hash: "#about-me", icon: GoPerson },
-  { de: "Kontakt", en: "Contact", hash: "#contact", icon: GoMail },
+  { de: "Ev", en: "Home", hash: "#home", icon: GoHome },
+  { de: "Bacarıqlar", en: "Skills", hash: "#skills", icon: GoStack },
+  { de: "Proyektlər", en: "Projects", hash: "#projects", icon: GoProject },
+  { de: "Haqqımda", en: "About me", hash: "#about-me", icon: GoPerson },
+  { de: "Əlaqə", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
 export const FooterLinks = [
-  { de: "Impressum", en: "Imprint", hash: "#imprint", data: <Imprint /> },
-  { de: "Datenschutz", en: "Privacy", hash: "#privacy", data: <Privacy /> },
+  { de: "Çap", en: "Imprint", hash: "#imprint", data: <Imprint /> },
+  { de: "Məxfilik", en: "Privacy", hash: "#privacy", data: <Privacy /> },
 ] as const;
 
 export const sideBarRightMail = {
-  link: "mailto:myemail@com",
-  text: "myemail@com",
+  link: "",
+  text: "",
 } as const;
 
 export const sideBarLeftSocials = [
   {
-    link: "https://www.linkedin.com/in/alpay/",
+    link: "https://www.linkedin.com/in/nizam-ramazanov-6a303720a/",
     icon: FiLinkedin,
     altimgname: "linkedin",
   },
   {
-    link: "https://github.com/AlpayC",
+    link: "https://github.com/Ramazanzade",
     icon: FiGithub,
     altimgname: "github",
   },
   {
-    link: "mailto:myemail@com",
+    link: "ramazanov570633@gmail.com",
     icon: FiMail,
     altimgname: "mail",
   },
@@ -334,58 +453,58 @@ export const sideBarLeftSocials = [
 
 export const quotesData = [
   {
-    de: '"Es ist überhaupt nicht wichtig, es beim ersten Mal richtig zu machen. Es ist entscheidend, es beim letzten Mal richtig zu machen."',
-    en: `"It's not at all important to get it right the first time. It's vitally important to get it right the last time."`,
-    author: "Andrew Hunt",
+    de: 'Ağıllı o adamdır ki, təcrübələr ona öyüd verir.',
+    en: `A wise man is what experiences remind him.`,
+    author: "Həzrəti Əli",
   },
   {
-    de: '"Das Web ist wie eine Leinwand und der Code ist die Farbe. Erschaffe dein Meisterwerk."',
+    de: 'Şəbəkə kətan kimidir, kod isə boyadır. Öz şah əsərinizi yaradın',
     en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
   },
 ] as const;
 
 export const aboutMeData = {
-  title: "Über mich",
+  title: "Haqqımda",
   title_EN: "About me",
-  description: "Ein paar Codeschnippsel über mich",
+  description: "Haqqımda bir neçə kod parçası",
   description_EN: "A few code snippets about me",
   paragraphs_DE: [
     {
-      title: "Die Schaltkreise meines Herzens",
+      title: "Kod",
       description:
-        "Wenn ich nicht in der digitalen Welt unterwegs bin, durchstreife ich die faszinierende Welt der Technik und Hardware. Schaltkreise und Lötstellen sind für mich wie Puzzleteile eines aufregenden Abenteuers.",
+        "Rəqəmsal dünyada naviqasiya etmədiyim zaman, texnologiya və avadanlıqların füsunkar sahəsinə vuruldum (yalansa). Sxemlər və kod  birləşmələri mənim üçün maraqlı bir macərada tapmaca parçaları kimidir",
       icon: hardwareicon,
     },
     {
-      title: "Auf der Überholspur des Lebens",
+      title: "Maraqlar",
       description:
-        "Neben dem Coden befinde ich mich gerne auf der Überholspur – im wahrsten Sinne des Wortes. Autos sind meine Leidenschaft, und ich genieße es, mit PS-starken Maschinen auf unbekannten Straßen unterwegs zu sein.",
+        "Kodlaşdırma ilə yanaşı, mən gəzməyi xoşlayıram - sözün əsl mənasında",
       icon: caricon,
     },
     {
-      title: "Entdeckungsfreude als Lebensmotto",
+      title: "Həyyat şüarı",
       description:
-        "Meine Reise als Webentwickler ist nur ein Teil meines Lebenswegs. Ich lebe nach dem Motto, dass das Abenteuer erst beginnt, wenn man das Bekannte hinter sich lässt. Das Entdecken neuer Orte ist meine Form der kreativen Inspiration.",
+        "Kod tərtibatçısı olmaq həyat səyahətimin sadəcə bir hissəsidir. Mən macəranın yalnız tanış  olmağı geridə qoyduğunuz zaman başlayacağı şüarı ilə yaşayıram. Yeni yerləri kəşf etmək mənim yaradıcı ilham qaynağımdır.",
       icon: travelicon,
     },
   ],
   paragraphs_EN: [
     {
-      title: "The Circuits of My Heart",
+      title: "Cod",
       description:
-        "When I'm not navigating the digital world, I explore the fascinating realm of technology and hardware. Circuits and solder joints are like puzzle pieces to me in an exciting adventure.",
+        "When I'm not navigating the digital world, I'm struck (if not) by the fascinating realm of technology and hardware. Circuits and code combinations are like puzzle pieces in an exciting adventure to me",
       icon: hardwareicon,
     },
     {
-      title: "On the Fast Lane of Life",
+      title: "Interests",
       description:
-        "Besides coding, I like to be on the fast lane - in the truest sense of the word. Cars are my passion, and I enjoy being on unknown roads with powerful machines.",
+        "Besides coding, I like to travel - literally",
       icon: caricon,
     },
     {
-      title: "The Joy of Discovery as a Life Motto",
+      title: "The motto of life",
       description:
-        "My journey as a web developer is only a part of my life path. I live by the motto that the adventure only begins when you leave the familiar behind. Discovering new places and cultures is my form of creative inspiration.",
+        "Being a coder is just part of my life's journey. I live by the motto that adventure only begins when you leave familiarity behind. Exploring new places is my source of creative inspiration",
       icon: travelicon,
     },
   ],
@@ -393,23 +512,23 @@ export const aboutMeData = {
 
 export const contactData = {
   title: {
-    de: "Kontakt",
+    de: "Əlaqə",
     en: "Contact",
   },
   description: {
-    de: "Schreib mir eine Nachricht und ich melde mich bei dir.",
+    de: "Mənə bir mesaj yazın, mən sizə qayıdacağam",
     en: "Write me a message and I will get back to you.",
   },
   inputfields: [
     {
       name: "name",
       placeholder: {
-        de: "Dein Name",
+        de: "Adınız",
         en: "Your Name",
       },
       type: "text",
       validation: {
-        de: "Bitte gebe deinen Namen ein",
+        de: "Zəhmət olmasa adınızı yazın",
         en: "Please fill in your name",
       },
       pattern: "{2}",
@@ -417,12 +536,12 @@ export const contactData = {
     {
       name: "email",
       placeholder: {
-        de: "Deine E-Mail Adresse",
+        de: "Email",
         en: "Your E-Mail",
       },
       type: "email",
       validation: {
-        de: "Bitte gebe deine Email ein",
+        de: "Zəhmət olmasa emailınızı doldurun",
         en: "Please fill in your email",
       },
       pattern: "[@]{4}",
@@ -430,12 +549,12 @@ export const contactData = {
     {
       name: "subject",
       placeholder: {
-        de: "Deine Betreff",
+        de: "Mövzu",
         en: "Your Subject",
       },
       type: "text",
       validation: {
-        de: "Bitte gebe einen Betreff ein",
+        de: "Qeyd",
         en: "Please fill in your subject",
       },
       pattern: "{10}",
@@ -443,20 +562,20 @@ export const contactData = {
   ],
   textarea: {
     placeholder: {
-      de: "Deine Nachricht",
+      de: "Mesaj",
       en: "Your Message",
     },
     name: "message",
     rows: 10,
     validation: {
-      de: "Bitte gebe deine Nachricht ein",
+      de: "Zəhmət olmasa mesajınızı doldurun",
       en: "Please fill in your message",
     },
     pattern: "{10}",
   },
   button: {
     value: {
-      de: "Absenden",
+      de: "Göndər",
       en: "Send",
     },
   },
@@ -469,11 +588,11 @@ export const contactData = {
   },
   privacyOptIn: {
     checkbox: {
-      de: "Ich stimme zu, dass Alpay meine personenbezogenen Daten (Name und E-Mail-Adresse) verwenden darf, um mit mir Kontakt aufzunehmen.",
-      en: "I agree that Alpay may use my personal data (name and e-mail address) to contact me.",
+      de: "Razıyam ki, Nizam mənimlə əlaqə saxlamaq üçün şəxsi məlumatlarımdan (ad və e-poçt ünvanı) istifadə edə bilər",
+      en: "I agree that Nizam may use my personal data (name and e-mail address) to contact me.",
     },
     description: {
-      de: "Durch Übermittlung dieser Anfrage bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben",
+      de: "Bu sorğunu təqdim etməklə siz Şəxsi Siyasəti oxuduğunuzu təsdiq edirsiniz",
       en: "By submitting this request, you acknowledge that you have read the Private Policy",
     },
   },
@@ -481,26 +600,26 @@ export const contactData = {
 
 export const toastMessages = {
   loadingProject: {
-    de: "🦄 Die Live Demo wird gleich geöffnet. Server werden gestartet...",
+    de: "🦄 Canlı demo tezliklə açılacaq (İnşAllah:)). Serverlər işə salınır...",
     en: "🦄 The live demo will open shortly. Starting servers...",
   },
   successEmailSent: {
-    de: "🦄 Vielen Dank für deine Email. Ich werde mich schnellstmöglich bei dir melden",
+    de: "🦄 E-poçtunuz üçün təşəkkür edirik. Ən qısa zamanda sizə qayıdacağam.(Hər ehtimala maildən də yazın:))",
     en: "🦄 Thank you for your email. I will get back to you as soon as possible",
   },
   failedEmailSent: {
-    de: "🦄 Leider hat der Versand deiner Email nicht geklappt. Bitte versuche es später noch einmal",
+    de: "🦄 Təəssüf ki, e-poçtunuzun göndərilməsi işləmədi. Zəhmət olmasa bir az sonra yenə cəhd edin (Çoxda dirəşmiyin server işləmir:))",
     en: "🦄 Unfortunately the sending of your email did not work. Please try again later",
   },
   failedValidationName: {
-    de: "Bitte gebe deinen Namen ein",
+    de: "Zəhmət olmasa adınızı yazın",
     en: "Please fill in your name",
   },
 } as const;
 
 export const buttonLabels = {
   language: {
-    de: "DE",
+    de: "AZE",
     en: "EN",
   },
 } as const;
