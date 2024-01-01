@@ -22,9 +22,6 @@ import medics from "../../assets/img/19_Home.svg";
 import Group from "../../assets/img/Group 241.png";
 import iPhone from "../../assets/img/iPhone 14 - 1.png";
 import profilepicture from "../img/me2.webp";
-import caricon from "../../assets/icons/car-icon.svg";
-import travelicon from "../../assets/icons/travel-icon.svg";
-import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import reactnative from "../../assets/icons/react-native-1.svg";
 import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
@@ -34,7 +31,7 @@ import Privacy from "../../components/Privacy";
 import chat from '../img/home screen.png'
 import marvel from '../img/Welcome Screen-2.png'
 import bank from '../img/Sign in screen.png'
-import  htmlicon from '../icons/htmlicon.svg'
+import htmlicon from '../icons/htmlicon.svg'
 import hava from '../img/watherapp1.png'
 export const headerIntroData = {
   title: {
@@ -159,7 +156,7 @@ export const projectsData = [
       { name: "Js", icon: javascripticon },
       { name: "Redux", icon: redux },
       { name: "Figma", icon: figmaicon },
- 
+
     ],
     image: chat,
     deploymenturl: "https://www.figma.com/file/aldpPvGmftbhEEEjaMikO2/chatting-app-(Community)?type=design&node-id=6-432&mode=design&t=eo6sC7aXYxmVuYg1-0",
@@ -190,7 +187,7 @@ export const projectsData = [
       { name: "Express", icon: expressiconwhite },
       { name: "Render", icon: rendericon },
       { name: "JWT & Bcrypt", icon: jwticon },
- 
+
     ],
     image: marvel,
     deploymenturl: "https://www.figma.com/file/9UAWHQM791JQLjvxyrN401/MARVEL-APP-(Community)?type=design&node-id=0-218&mode=design&t=dUh1N5q74YVNu38t-0",
@@ -221,7 +218,7 @@ export const projectsData = [
       { name: "Express", icon: expressiconwhite },
       { name: "Render", icon: rendericon },
       { name: "JWT & Bcrypt", icon: jwticon },
- 
+
     ],
     image: bank,
     deploymenturl: "https://www.figma.com/file/5kB5C9ZX0KVXLTUyWh5cpL/Income-%26-Expense-Manager-(Community)?type=design&node-id=2-18&mode=design&t=YcBU8qwVy0LTjvBS-0",
@@ -246,7 +243,7 @@ export const projectsData = [
       { name: "Ts", icon: typescripticon },
       { name: "Redux", icon: redux },
       { name: "Figma", icon: figmaicon },
- 
+
     ],
     image: '',
     deploymenturl: "",
@@ -269,8 +266,8 @@ export const projectsData = [
     technologies: [
       { name: "React Native", icon: reactnative },
       { name: "Ts", icon: typescripticon },
-      { name: "Axios", icon:axiosicon },
- 
+      { name: "Axios", icon: axiosicon },
+
     ],
     image: hava,
     deploymenturl: "",
@@ -378,12 +375,12 @@ export const skillsDataDesign = [
     skillsTitle: "Design",
     skills: [
       { title: "Figma", hash: "#Figma", icon: figmaicon, color: "#F24E1E" },
-        {
-          title: "Adobe XD",
-          hash: "#Adobe XD",
-          icon: adobexdicon,
-          color: "#FF61F6",
-        },
+      {
+        title: "Adobe XD",
+        hash: "#Adobe XD",
+        icon: adobexdicon,
+        color: "#FF61F6",
+      },
       { title: "Canva", hash: "#Canva", icon: canvaicon, color: "#00C4CC" },
     ],
   },
@@ -419,7 +416,7 @@ export const navLinks = [
   { de: "Ev", en: "Home", hash: "#home", icon: GoHome },
   { de: "Bacarıqlar", en: "Skills", hash: "#skills", icon: GoStack },
   { de: "Proyektlər", en: "Projects", hash: "#projects", icon: GoProject },
-  { de: "Haqqımda", en: "About me", hash: "#about-me", icon: GoPerson },
+  { de: "Təhsil", en: "Education", hash: "#about-me", icon: GoPerson },
   { de: "Əlaqə", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
@@ -464,48 +461,32 @@ export const quotesData = [
 ] as const;
 
 export const aboutMeData = {
-  title: "Haqqımda",
-  title_EN: "About me",
-  description: "Haqqımda bir neçə kod parçası",
-  description_EN: "A few code snippets about me",
+  title: "Təhsil",
+  title_EN: "Education",
+  description: "Təhsilim bir neçə kod parçası",
+  description_EN: "A few code snippets education",
   paragraphs_DE: [
     {
-      title: "Kod",
+      title: "Azərbaycan Respubilkası Prezdenti yanında Dövlət İdarəcilik Akademiyası",
       description:
-        "Rəqəmsal dünyada naviqasiya etmədiyim zaman, texnologiya və avadanlıqların füsunkar sahəsinə vuruldum (yalansa). Sxemlər və kod  birləşmələri mənim üçün maraqlı bir macərada tapmaca parçaları kimidir",
-      icon: hardwareicon,
+        "Davamlı İnkşafın İdarəedilməsi  /2019-2023 /95.4 GPA",
     },
     {
-      title: "Maraqlar",
-      description:
-        "Kodlaşdırma ilə yanaşı, mən gəzməyi xoşlayıram - sözün əsl mənasında",
-      icon: caricon,
-    },
-    {
-      title: "Həyyat şüarı",
-      description:
-        "Kod tərtibatçısı olmaq həyat səyahətimin sadəcə bir hissəsidir. Mən macəranın yalnız tanış  olmağı geridə qoyduğunuz zaman başlayacağı şüarı ilə yaşayıram. Yeni yerləri kəşf etmək mənim yaradıcı ilham qaynağımdır.",
-      icon: travelicon,
+      description: "Xidmət Sferasında Mühasibat uçotu və Audit /2023-2025",
+      title:
+        "Azərbaycan Əmək və Sosial Münasibətlər Akademiyası",
     },
   ],
   paragraphs_EN: [
     {
-      title: "Cod",
+      title: "Academy of Public Administration under the President of the Republic of Azerbaijan",
       description:
-        "When I'm not navigating the digital world, I'm struck (if not) by the fascinating realm of technology and hardware. Circuits and code combinations are like puzzle pieces in an exciting adventure to me",
-      icon: hardwareicon,
+        "Sustainable Development Management /2019-2023 /95.4 GPA",
     },
     {
-      title: "Interests",
-      description:
-        "Besides coding, I like to travel - literally",
-      icon: caricon,
-    },
-    {
-      title: "The motto of life",
-      description:
-        "Being a coder is just part of my life's journey. I live by the motto that adventure only begins when you leave familiarity behind. Exploring new places is my source of creative inspiration",
-      icon: travelicon,
+      description: "Accounting and Audit in the Service Sphere /2023-2025",
+      title:
+        "Azerbaijan Academy of Labor and Social Relations",
     },
   ],
 };

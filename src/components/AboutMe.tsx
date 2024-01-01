@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import me from "../assets/img/me.webp";
+import edu from '../assets/img/mortarboard_114806.png'
 import { aboutMeData } from "../assets/lib/data";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -13,7 +14,7 @@ import { useLanguage } from "../context/language-context";
 const AboutMe: React.FC = () => {
   const progressCircle = useRef<SVGSVGElement | null>(null);
   const progressContent = useRef<HTMLSpanElement | null>(null);
-  const { ref } = useSectionInView("About me");
+  const { ref } = useSectionInView("Education");
   const { language } = useLanguage();
   const animationReference = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -46,22 +47,22 @@ const AboutMe: React.FC = () => {
               textAlign: "left",
             }}
           >
-            <p className="text-[--black] mb-6">
+            <p   className="text-[--black] mb-6" style={{fontSize:'20px'}}>
               <span className="text-orange">&lt;</span>
               {language === "DE" ? aboutMeData.title : aboutMeData.title_EN}
               <span className="text-orange">/&gt;</span>
             </p>
 
-            <h2 className="text-[--black] text-center max-lg:text-left break-words">
+            <h2 className="text-[--black] text-center max-lg:text-left break-words" style={{fontSize:'20px'}}>
               {language === "DE"
                 ? aboutMeData.description
                 : aboutMeData.description_EN}
             </h2>
           </motion.div>
         </div>
-        <div className="flex flex-row justify-center gap-6 items-center pl-32 pr-32 mb-16  max-lg:flex-col max-lg:p-16 min-[1921px]:px-[45rem] min-[1921px]:mb-48">
+        <div className="flex flex-row justify-center gap-6 items-center pl-32 pr-32 mb-16  max-lg:flex-col max-lg:p-16 min-[1521px]:px-[45rem] min-[1921px]:mb-48">
           <article className="pl-60 max-lg:p-0">
-            <img src={me} alt={me} />
+            <img src={edu} alt={me} style={{width:'100%'}}/>
           </article>
           <Swiper
             spaceBetween={100}
@@ -83,13 +84,7 @@ const AboutMe: React.FC = () => {
                 key={index}
               >
                 <div className="flex gap-6 flex-row justify-start items-center max-lg:flex-col max-lg:justify-center max-lg:text-center ">
-                  <div>
-                    <img
-                      src={paragraph.icon}
-                      alt={paragraph.icon}
-                      className="w-24"
-                    />
-                  </div>
+
                   <div>
                     <h2>{paragraph.title}</h2>
                   </div>
