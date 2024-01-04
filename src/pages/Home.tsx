@@ -6,6 +6,7 @@ import { useTheme } from "../context/theme-context";
 import { ScrollProgress } from "../components/ScrollProgress";
 import Divider from "../components/Divider";
 import ProjectSlider from "../components/ProjectSlider";
+import ProjectSlider2 from "../components/ProjectSlider2";
 
 const LazyBannerQuote = lazy(() => import("../components/BannerQuote"));
 const LazySiteBarRight = lazy(() => import("../components/SideBarRight"));
@@ -95,7 +96,7 @@ const Home: React.FC = () => {
                 height="middle"
                 dividerStyle="solid"
               />
-
+              <ProjectSlider2/>
               <LazyContact />
             </div>
           </Suspense>

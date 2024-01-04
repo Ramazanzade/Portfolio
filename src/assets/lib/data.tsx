@@ -33,6 +33,8 @@ import marvel from '../img/Welcome Screen-2.png'
 import bank from '../img/Sign in screen.png'
 import htmlicon from '../icons/htmlicon.svg'
 import hava from '../img/watherapp1.png'
+import abb from '../img/abb.jpg'
+import dew from '../img/Screenshot 2024-01-04 171948.png'
 export const headerIntroData = {
   title: {
     de: "Salam, mən Nizam",
@@ -272,6 +274,80 @@ export const projectsData = [
     image: hava,
     deploymenturl: "",
     githuburl: "https://github.com/Ramazanzade/Weather-App-Expo",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+] as const;
+export const projectsData2 = [
+  {
+    title: "Dewosoft ",
+    description:
+      "Tətbiqi inkişaf || Kodun optimallaşdırılması || Funksiyanın yerinə yetirilməsi || Bug Resolution || Aprel 2023 - Hal-Hazırda || Birleşik Devletler · Uzaktan   ",
+    description_EN:
+      "Application Development || Code Optimization || Feature Implementation || Bug Resolution || April 2023 - Present || United States · Remote",
+    technologies: [
+      { name: "React Native", icon: reactnative },
+      { name: "Node js", icon: nodejsicon },
+      { name: "Ts", icon: typescripticon },
+      { name: "Redux", icon: redux },
+      { name: "Figma", icon: figmaicon },
+      { name: "Axios", icon: axiosicon },
+      { name: "MongoDB", icon: mongodbicon },
+      { name: "Express", icon: expressiconwhite },
+      { name: "Render", icon: rendericon },
+      { name: "JWT & Bcrypt", icon: jwticon },
+    ],
+    image:dew,
+    deploymenturl: "https://dewosoft.com/",
+    githuburl: "https://github.com/Ramazanzade",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "ABB",
+    description:
+      "İT İnfrastruktur və Əməliyyat Departamenti-Əsas Bankçılıq Dəstəyi || Avqust 2022 - Dekabr 2022 Bakı, Azərbaycan",
+    description_EN:
+      "IT Infrastructure and Operation Department-Core Banking Support || Ağu 2022 - Kas 2022  Baku, Azerbaijan",
+    technologies: [
+      { name:'Office', icon: office },
+    ],
+    image: abb,
+    deploymenturl: "https://abb-bank.az/az/internet-bankchiliq",
+    githuburl: "https://github.com/Ramazanzade",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#70B9BE",
+    },
+  },
+  {
+    title: "ABB",
+    description:
+      " Rəqəmsal Marketing||  Oca 2022 - Nis 2022 Bakı, Azərbaycan",
+    description_EN:
+      "Digital Literacy || Oca 2022 - Nis 2022 Baku, Azerbaijan",
+    technologies: [
+      { name:'Office', icon: office },
+    ],
+    image: abb,
+    deploymenturl: "https://abb-bank.az/az/internet-bankchiliq",
+    githuburl: "https://github.com/Ramazanzade",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
