@@ -493,6 +493,7 @@ export const navLinks = [
   { de: "Bacarıqlar", en: "Skills", hash: "#skills", icon: GoStack },
   { de: "Proyektlər", en: "Projects", hash: "#projects", icon: GoProject },
   { de: "Təhsil", en: "Education", hash: "#about-me", icon: GoPerson },
+  // { de: "İş Təcrübəsi", en: "Education", hash: "#about-me", icon: GoPerson },
   { de: "Əlaqə", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
 
