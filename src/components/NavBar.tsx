@@ -150,7 +150,7 @@ const NavBar: React.FC = () => {
                   onClick={() => {
                     setActiveSection(link.en);
                     setTimeOfLastClick(Date.now());
-                    if (link.en === "Home") {
+                    if (link.en === "About") {
                       document.body.scrollIntoView({
                         behavior: "smooth",
                         block: "start",

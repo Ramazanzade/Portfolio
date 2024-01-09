@@ -44,36 +44,23 @@ const Home: React.FC = () => {
               quoteIndex={0}
               containerType="quote"
             />
-            <Divider
-              thickness="0.25rem"
-              direction="outer-right-to-inner-left"
-              color="lightblue"
-              height="small"
-              dividerStyle="solid"
-            />
-
-            <LazyTechStack />
-            <Divider
-              thickness="0.25rem"
-              direction="inner-right-to-middle"
-              color="lightblue"
-              height="middle"
-              dividerStyle="solid"
-            />
-
-            <LazyBannerQuote
-              style={"noBG"}
-              quoteIndex={1}
-              containerType="statement"
-            />
+             <LazyAboutMe />
+              <Divider
+                thickness="0.25rem"
+                direction="inner-left-to-middle"
+                color="lightblue"
+                height="middle"
+                dividerStyle="solid"
+              />
+            <ProjectSlider2/>
             <Divider
               thickness="0.25rem"
               direction="middle"
               color="lightblue"
-              height="extraLarge"
+              height='middle'
               dividerStyle="solid"
             />
-            <ProjectSlider />
+            <LazyTechStack />
             <div className="relative -mb-24 pb-32 -mt-10">
               <LazyRadialGradient
                 opacity={theme === "light" ? "opacity-30" : "opacity-30"}
@@ -84,19 +71,11 @@ const Home: React.FC = () => {
                 thickness="0.25rem"
                 direction="middle-to-inner-left"
                 color="lightblue"
-                height="middle"
+                height="small"
                 dividerStyle="solid"
               />
 
-              <LazyAboutMe />
-              <Divider
-                thickness="0.25rem"
-                direction="inner-left-to-middle"
-                color="lightblue"
-                height="middle"
-                dividerStyle="solid"
-              />
-              <ProjectSlider2/>
+              <ProjectSlider/>
               <LazyContact />
             </div>
           </Suspense>

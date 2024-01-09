@@ -16,7 +16,7 @@ import "swiper/css/effect-cards";
 import "swiper/css/pagination";
 
 const ProjectSlider2: React.FC = () => {
-  const { ref } = useSectionInView("Projects");
+  const { ref } = useSectionInView("Work experience");
   const { language } = useLanguage();
   const animationReference = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -73,12 +73,9 @@ const ProjectSlider2: React.FC = () => {
             >
               <p className="text-[--white] mt-16 mb-6">
                 <span className="text-[--orange]">&lt;</span>
-                {language === "DE" ? "Projekte" : "Projects"}
+                {language === "DE" ? "Iş Təcrubəsi" : "Work experience"}
                 <span className="text-[--orange]">/&gt;</span>
               </p>
-              <h2 className="text-[--white] mb-16">
-                {language === "DE" ? "Meine Projekte" : "My Projects"}
-              </h2>
             </motion.div>
             <Swiper
               effect={"cards"}
@@ -208,7 +205,7 @@ const ProjectSlider2: React.FC = () => {
                       )
                     )}
                   </div>
-                </div>
+                </div>  
               </article>
             ))}
           </div>

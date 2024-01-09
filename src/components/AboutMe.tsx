@@ -60,9 +60,9 @@ const AboutMe: React.FC = () => {
             </h2>
           </motion.div>
         </div>
-        <div className="flex flex-row justify-center gap-6 items-center pl-32 pr-32 mb-16  max-lg:flex-col max-lg:p-16 min-[1521px]:px-[45rem] min-[1921px]:mb-48">
+        <div className="flex flex-row justify-center gap-6 items-center pl-32 pr-32 mb-16  max-lg:flex-col max-lg:p-16 min-[1521px]:px-[45rem] min-[1921px]:mb-48 matgin-top:5px">
           <article className="pl-60 max-lg:p-0">
-            <img src={edu} alt={me} style={{width:'100%'}}/>
+            <img src={edu} alt={me} style={{width:'70%'}}/>
           </article>
           <Swiper
             spaceBetween={100}

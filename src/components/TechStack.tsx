@@ -43,15 +43,11 @@ const TechStack: React.FC = () => {
               opacity: opacityProgess,
             }}
           >
-            <p className="font-black mb-6">
-              <span className="text-[--orange]">&lt;</span>Skills
+            <p className="font-black mb-2">
+              <span className="text-[--orange]">&lt;</span>
+              {language === "DE" ? "Bacarığlar" : "Skills"}
               <span className="text-[--orange]">/&gt;</span>
             </p>
-            <h2>
-              {language === "DE"
-                ? "Meine Techstack und Skills"
-                : "My TechStack and Skills"}
-            </h2>
           </motion.div>
         </div>
         <div className="flex gap-40 justify-center max-lg:flex-col">

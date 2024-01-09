@@ -320,7 +320,7 @@ export const projectsData2 = [
     description:
       "İT İnfrastruktur və Əməliyyat Departamenti-Əsas Bankçılıq Dəstəyi || Avqust 2022 - Dekabr 2022 Bakı, Azərbaycan",
     description_EN:
-      "IT Infrastructure and Operation Department-Core Banking Support || Ağu 2022 - Kas 2022  Baku, Azerbaijan",
+      "IT Infrastructure and Operation Department-Core Banking Support || Agu 2022 - Dec 2022  Baku, Azerbaijan",
     technologies: [
       { name:'Office', icon: office },
     ],
@@ -339,9 +339,9 @@ export const projectsData2 = [
   {
     title: "ABB",
     description:
-      " Rəqəmsal Marketing||  Oca 2022 - Nis 2022 Bakı, Azərbaycan",
+      " Rəqəmsal Marketing||  Yanvar 2022 - Aprel 2022 Bakı, Azərbaycan",
     description_EN:
-      "Digital Literacy || Oca 2022 - Nis 2022 Baku, Azerbaijan",
+      "Digital Literacy || Yan 2022 - Apr 2022 Baku, Azerbaijan",
     technologies: [
       { name:'Office', icon: office },
     ],
@@ -489,15 +489,12 @@ export const skillsDataCMS = [
 ] as const;
 
 export const navLinks = [
-  { de: "Ev", en: "Home", hash: "#home", icon: GoHome },
+  { de: "Haqqında", en: "About", hash: "#home", icon: GoHome },
+  { de: "Təhsil", en: "Education", hash: "#about-me", icon: GoPerson },
+  { de: "İş Təcrübəsi", en: "Work experience", hash: "#about-me", icon: GoPerson },
   { de: "Bacarıqlar", en: "Skills", hash: "#skills", icon: GoStack },
   { de: "Proyektlər", en: "Projects", hash: "#projects", icon: GoProject },
-  { de: "Təhsil", en: "Education", hash: "#about-me", icon: GoPerson },
-  // { de: "İş Təcrübəsi", en: "Education", hash: "#about-me", icon: GoPerson },
   { de: "Əlaqə", en: "Contact", hash: "#contact", icon: GoMail },
-    // { de: "İş Təcrübəsi", en: "Education", hash: "#about-me", icon: GoPerson },
-  { de: "İş Təcrübəsi", en: "Education", hash: "#about-me", icon: GoPerson },
-  // { de: "İş Təcrübəsi", en: "Education", hash: "#about-me", icon: GoPerson },
 
 ] as const;
 
