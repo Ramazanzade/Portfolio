@@ -37,7 +37,7 @@ const ProjectSlider: React.FC = () => {
     <React.Fragment>
       <section
         className=" skill-banner relative overflow-x-clip h-100% w-full flex flex-col gap-2 "
-        id="projects"
+        id="projects2"
         ref={ref}
       >
         <ToastContainer

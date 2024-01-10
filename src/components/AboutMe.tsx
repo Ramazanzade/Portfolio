@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import me from "../assets/img/me.webp";
-import edu from '../assets/img/mortarboard_114806.png'
+import me from "../assets/img/Nizam.jpeg";
+import edu from '../assets/img/graduation-cap.png'
 import { aboutMeData } from "../assets/lib/data";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -62,7 +62,7 @@ const AboutMe: React.FC = () => {
         </div>
         <div className="flex flex-row justify-center gap-6 items-center pl-32 pr-32 mb-16  max-lg:flex-col max-lg:p-16 min-[1521px]:px-[45rem] min-[1921px]:mb-48 matgin-top:5px">
           <article className="pl-60 max-lg:p-0">
-            <img src={edu} alt={me} style={{width:'70%'}}/>
+            <img src={edu} alt={me} style={{width:'100%'}}/>
           </article>
           <Swiper
             spaceBetween={100}

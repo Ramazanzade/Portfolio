@@ -21,7 +21,7 @@ import webflowicon from "../../assets/icons/webflowicon.svg";
 import medics from "../../assets/img/19_Home.svg";
 import Group from "../../assets/img/Group 241.png";
 import iPhone from "../../assets/img/iPhone 14 - 1.png";
-import profilepicture from "../img/me2.webp";
+import profilepicture from "../img/Nizam.jpeg";
 import reactnative from "../../assets/icons/react-native-1.svg";
 import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
@@ -35,6 +35,7 @@ import htmlicon from '../icons/htmlicon.svg'
 import hava from '../img/watherapp1.png'
 import abb from '../img/abb.jpg'
 import dew from '../img/Screenshot 2024-01-04 171948.png'
+import planet from '../img/planet-10-orange-blue-final-small.webp'
 export const headerIntroData = {
   title: {
     de: "Salam, mən Nizam",
@@ -42,8 +43,8 @@ export const headerIntroData = {
   },
   subtitle: "Software Developer | Mobile / Web Development",
   description: {
-    de: "Mən Nizam, karyeramı inkişaf etdirmək və ruhlandırıcı layihələrdə iştirak etmək məqsədi daşıyan software  developerəm. Burada öz işimi və  inkişaf üçün işlərimi təqdim edirəm. Gəlin rəqəmsal həlləri birlikdə formalaşdıraq və gələcəyi formalaşdıraq!",
-    en: "I'm Nizam, a software developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future!",
+    de: "Mən Nizam, karyeramı inkişaf etdirmək və ruhlandırıcı layihələrdə iştirak etmək məqsədi daşıyan software  developerəm. Burada öz işimi və  inkişaf üçün işlərimi təqdim edirəm. Gəlin rəqəmsal həlləri birlikdə formalaşdıraq və gələcəyi formalaşdıraq! Telefon:051 666 65 48 | E-mail: ramaznov570633@gmail.com",
+    en: "I'm Nizam, a software developer with the goal of advancing my career and participating in inspiring projects. Here I present my work and my passion for web development. Let's shape digital solutions together and shape the future! Phone:051 666 65 48 | E-mail: ramaznov570633@gmail.com",
   },
   buttons: [
     {
@@ -54,6 +55,7 @@ export const headerIntroData = {
       },
       icon: FiMail,
       color: "main-btn",
+      link:'https://github.com/Ramazanzade'
     },
     {
       name: "Projects",
@@ -63,6 +65,7 @@ export const headerIntroData = {
       },
       icon: FiGithub,
       color: "secondary-btn",
+      link:'https://github.com/Ramazanzade'
     },
   ],
   profilepicture: profilepicture,
@@ -247,7 +250,7 @@ export const projectsData = [
       { name: "Figma", icon: figmaicon },
 
     ],
-    image: '',
+    image: planet,
     deploymenturl: "",
     githuburl: "https://github.com/Ramazanzade/Planet",
     githubicon: FiGithub,
@@ -257,6 +260,7 @@ export const projectsData = [
       second: "secondary-btn",
       icon: "white",
       projectcolor: "#70B9BE",
+      
     },
   },
   {
@@ -491,9 +495,9 @@ export const skillsDataCMS = [
 export const navLinks = [
   { de: "Haqqında", en: "About", hash: "#home", icon: GoHome },
   { de: "Təhsil", en: "Education", hash: "#about-me", icon: GoPerson },
-  { de: "İş Təcrübəsi", en: "Work experience", hash: "#about-me", icon: GoPerson },
+  { de: "İş Təcrübəsi", en: "Work experience", hash: "#projects", icon: GoProject },
   { de: "Bacarıqlar", en: "Skills", hash: "#skills", icon: GoStack },
-  { de: "Proyektlər", en: "Projects", hash: "#projects", icon: GoProject },
+  { de: "Proyektlər", en: "Projects", hash: "#projects2", icon: GoProject },
   { de: "Əlaqə", en: "Contact", hash: "#contact", icon: GoMail },
 
 ] as const;

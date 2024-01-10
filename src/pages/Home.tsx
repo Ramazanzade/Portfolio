@@ -39,11 +39,11 @@ const Home: React.FC = () => {
         </header>
         <main className="relative">
           <Suspense fallback={<div>Loading...</div>}>
-            <LazyBannerQuote
+            {/* <LazyBannerQuote
               style={"withBG"}
               quoteIndex={0}
               containerType="quote"
-            />
+            /> */}
              <LazyAboutMe />
               <Divider
                 thickness="0.25rem"
