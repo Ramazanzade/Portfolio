@@ -535,11 +535,7 @@ export const quotesData = [
     de: 'Ağıllı o adamdır ki, təcrübələr ona öyüd verir.',
     en: `A wise man is what experiences remind him.`,
     author: "Həzrəti Əli",
-  },
-  {
-    de: 'Şəbəkə kətan kimidir, kod isə boyadır. Öz şah əsərinizi yaradın',
-    en: `"The web is like a canvas, and code is the paint. Create your masterpiece."`,
-  },
+  }
 ] as const;
 
 export const aboutMeData = {
