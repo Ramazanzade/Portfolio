@@ -533,7 +533,7 @@ export const sideBarLeftSocials = [
 export const quotesData = [
   {
     de: 'Ağıllı o adamdır ki, təcrübələr ona öyüd verir.',
-    en: `A wise man is what experiences remind him.`,
+    // en: `A wise man is what experiences remind him.`,
     author: "Həzrəti Əli",
   }
 ] as const;
