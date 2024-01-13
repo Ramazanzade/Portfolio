@@ -292,9 +292,9 @@ export const projectsData2 = [
   {
     title: "Dewosoft ",
     description:
-      "Tətbiqi inkişaf || Kodun optimallaşdırılması || Funksiyanın yerinə yetirilməsi || Bug Resolution || Aprel 2023 - Hal-Hazırda || Birleşik Devletler · Uzaktan   ",
+      "Tətbiqi inkişaf || Kodun optimallaşdırılması || Funksiyanın yerinə yetirilməsi || Bug Resolution || Oktyabr 2023 - Hal-Hazırda || Birleşik Devletler · Uzaktan   ",
     description_EN:
-      "Application Development || Code Optimization || Feature Implementation || Bug Resolution || April 2023 - Present || United States · Remote",
+      "Application Development || Code Optimization || Feature Implementation || Bug Resolution || October 2023 - Present || United States · Remote",
     technologies: [
       { name: "React Native", icon: reactnative },
       { name: "Node js", icon: nodejsicon },
@@ -533,7 +533,6 @@ export const sideBarLeftSocials = [
 export const quotesData = [
   {
     de: 'Ağıllı o adamdır ki, təcrübələr ona öyüd verir.',
-    // en: `A wise man is what experiences remind him.`,
     author: "Həzrəti Əli",
   }
 ] as const;
